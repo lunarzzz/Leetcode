@@ -1,5 +1,7 @@
 package leetcodedaily;
 
+import java.util.concurrent.ThreadLocalRandom;
+
 public class T38 {
 
 
@@ -29,5 +31,6 @@ public class T38 {
 
     public static void main(String[] args) {
         System.out.println(countAndSay(5));
+        System.out.println(ThreadLocalRandom.current().nextInt(1000));
     }
 }
